@@ -1,6 +1,6 @@
 FROM node:4.5
 
-MAINTAINER Gérald Pereira <gerald.pereira@octoperf.com>
+MAINTAINER Gerald Pereira <gerald.pereira@octoperf.com>
 
 ENV HUGO_VERSION=0.16
 RUN apt-get update && \
