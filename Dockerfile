@@ -2,7 +2,7 @@ FROM node:4.5
 
 MAINTAINER Gerald Pereira <gerald.pereira@octoperf.com>
 
-ENV HUGO_VERSION=0.16
+ENV HUGO_VERSION=0.19
 RUN apt-get update && \
   wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-64bit.tgz && \
   tar xzf hugo_${HUGO_VERSION}_linux-64bit.tgz && \
