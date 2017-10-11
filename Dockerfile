@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:6
 
 MAINTAINER Gerald Pereira <gerald.pereira@octoperf.com>
 
