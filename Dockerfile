@@ -1,4 +1,4 @@
-FROM node:6
+FROM node:9-slim
 
 MAINTAINER Gerald Pereira <gerald.pereira@octoperf.com>
 
